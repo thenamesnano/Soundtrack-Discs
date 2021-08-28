@@ -1,0 +1,110 @@
+{
+  "music_disc.calm1": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/calm1",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.calm2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/calm2",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.calm3": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/calm3",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.hal1": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/hal1",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.hal2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/hal2",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.hal3": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/hal3",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.hal4": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/hal4",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.nuance1": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/nuance1",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.nuance2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/nuance2",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.piano1": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/piano1",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.piano2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/piano2",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.piano3": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/piano3",
+        "stream": true
+      }
+    ]
+  }
+}
