@@ -12,7 +12,7 @@ https://github.com/thenamesnano/Soundtrack-Discs
 
 2.1
 ====
- - 2.1.2 Fixed update checker link
+ - 2.1.1 Fixed update checker link
  - 2.1.0 Fixed typo and added update checker
 
 2.0
