@@ -50,28 +50,28 @@ public class RegistryHandler {
 
     // Items -----------------------------------------------------------------------------------------------------------
     public static final RegistryObject<Item> MUSIC_DISC_CALM1 = ITEMS.register("music_disc_calm1",
-            () -> new ModMusicDiscItem(1, MUSIC_DISC_CALM1_SOUND));
+            () -> new ModMusicDiscItem(1, MUSIC_DISC_CALM1_SOUND, 220));
     public static final RegistryObject<Item> MUSIC_DISC_CALM2 = ITEMS.register("music_disc_calm2",
-            () -> new ModMusicDiscItem(2, MUSIC_DISC_CALM2_SOUND));
+            () -> new ModMusicDiscItem(2, MUSIC_DISC_CALM2_SOUND, 201));
     public static final RegistryObject<Item> MUSIC_DISC_CALM3 = ITEMS.register("music_disc_calm3",
-            () -> new ModMusicDiscItem(3, MUSIC_DISC_CALM3_SOUND));
+            () -> new ModMusicDiscItem(3, MUSIC_DISC_CALM3_SOUND, 229));
     public static final RegistryObject<Item> MUSIC_DISC_HAL1 = ITEMS.register("music_disc_hal1",
-            () -> new ModMusicDiscItem(4, MUSIC_DISC_HAL1_SOUND));
+            () -> new ModMusicDiscItem(4, MUSIC_DISC_HAL1_SOUND, 209));
     public static final RegistryObject<Item> MUSIC_DISC_HAL2 = ITEMS.register("music_disc_hal2",
-            () -> new ModMusicDiscItem(5, MUSIC_DISC_HAL2_SOUND));
+            () -> new ModMusicDiscItem(5, MUSIC_DISC_HAL2_SOUND, 188));
     public static final RegistryObject<Item> MUSIC_DISC_HAL3 = ITEMS.register("music_disc_hal3",
-            () -> new ModMusicDiscItem(6, MUSIC_DISC_HAL3_SOUND));
+            () -> new ModMusicDiscItem(6, MUSIC_DISC_HAL3_SOUND, 191));
     public static final RegistryObject<Item> MUSIC_DISC_HAL4 = ITEMS.register("music_disc_hal4",
-            () -> new ModMusicDiscItem(7, MUSIC_DISC_HAL4_SOUND));
+            () -> new ModMusicDiscItem(7, MUSIC_DISC_HAL4_SOUND, 255));
     public static final RegistryObject<Item> MUSIC_DISC_NUANCE1 = ITEMS.register("music_disc_nuance1",
-            () -> new ModMusicDiscItem(8, MUSIC_DISC_NUANCE1_SOUND));
+            () -> new ModMusicDiscItem(8, MUSIC_DISC_NUANCE1_SOUND, 61));
     public static final RegistryObject<Item> MUSIC_DISC_NUANCE2 = ITEMS.register("music_disc_nuance2",
-            () -> new ModMusicDiscItem(9, MUSIC_DISC_NUANCE2_SOUND));
+            () -> new ModMusicDiscItem(9, MUSIC_DISC_NUANCE2_SOUND, 69));
     public static final RegistryObject<Item> MUSIC_DISC_PIANO1 = ITEMS.register("music_disc_piano1",
-            () -> new ModMusicDiscItem(10, MUSIC_DISC_PIANO1_SOUND));
+            () -> new ModMusicDiscItem(10, MUSIC_DISC_PIANO1_SOUND, 68));
     public static final RegistryObject<Item> MUSIC_DISC_PIANO2 = ITEMS.register("music_disc_piano2",
-            () -> new ModMusicDiscItem(11, MUSIC_DISC_PIANO2_SOUND));
+            () -> new ModMusicDiscItem(11, MUSIC_DISC_PIANO2_SOUND,89));
     public static final RegistryObject<Item> MUSIC_DISC_PIANO3 = ITEMS.register("music_disc_piano3",
-            () -> new ModMusicDiscItem(12, MUSIC_DISC_PIANO3_SOUND));
+            () -> new ModMusicDiscItem(12, MUSIC_DISC_PIANO3_SOUND, 280));
 
 }
