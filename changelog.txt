@@ -1,0 +1,17 @@
+Soundtrack Discs Changelog
+https://github.com/thenamesnano/Soundtrack-Discs
+
+1.1
+====
+ - 1.1.0 Initial port to 1.18.2
+
+1.0
+====
+ - 1.0.0 Fixed records not playing audio relative to world position (#1)
+
+Pre
+====
+ - 0.2.0 Added music discs to creeper_drop_music_discs tag for obtaining them in survival
+ - 0.1.0 Added music discs:
+           Minecraft, Clark, Sweden, Subwoofer Lullaby, Living Mice, Haggstrom, Danny, Key, Oxygène,
+           Dry Hands, Wet Hands, Mice on Venus
