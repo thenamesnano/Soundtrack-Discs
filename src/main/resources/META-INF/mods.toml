@@ -1,12 +1,14 @@
-# This is an soundtrackdiscs mods.toml file.
+# soundtrackdiscs mods.toml
 modLoader="javafml"
 loaderVersion="[36,)"
 license="MIT"
+issueTrackerURL="https://github.com/thenamesnano/Soundtrack-Discs/issues"
 
 [[mods]]
 modId="soundtrackdiscs"
-version="1.16.5-1.0.0"
+version="${file.jarVersion}"
 displayName="Soundtrack Discs"
+updateJSONURL="https://gist.githubusercontent.com/thenamesnano/8a3091c530036e43f12923840a55605c/raw/eb6f89ea9c68a2249b4c5533f2499b1a85cac19b/soundtrackdiscs_forge_updates.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/soundtrack-discs"
 logoFile="icon.png"
 credits="Thanks to boingobongo69 for the idea on Minecraft Forum, and Darklzar for helping fix issue #1!."

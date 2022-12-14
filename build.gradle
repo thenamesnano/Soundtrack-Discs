@@ -11,8 +11,10 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.16.5-1.0.0'
-group = 'com.thenamesnano.soundtrackdiscs'
+String semver = "${version_major}.${version_minor}.${version_patch}"
+
+version = "${semver}"
+group = 'com.nanosplace.soundtrackdiscs' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'soundtrackdiscs'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
@@ -60,7 +62,11 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.1.32'
+    minecraft([
+            group  : "${project.forge_group}",
+            name   : 'forge',
+            version: "${project.minecraft_version}-${project.forge_version}"
+    ])
 }
 
 jar {
@@ -68,10 +74,10 @@ jar {
         attributes([
             "Specification-Title": "soundtrackdiscs",
             "Specification-Vendor": "thenamesnano",
-            "Specification-Version": "1",
+            "Specification-Version": "${semver}",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"soundtrackdiscs",
+            "Implementation-Vendor" :"thenamesnano",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
