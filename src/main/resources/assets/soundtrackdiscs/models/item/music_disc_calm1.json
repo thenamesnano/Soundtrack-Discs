@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "soundtrackdiscs:items/music_disc_calm1"
+    "layer0": "soundtrackdiscs:item/music_disc_calm1"
   }
 }

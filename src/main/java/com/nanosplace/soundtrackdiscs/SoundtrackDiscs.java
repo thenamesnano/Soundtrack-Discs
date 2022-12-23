@@ -1,56 +1,30 @@
 package com.nanosplace.soundtrackdiscs;
 
-import com.mojang.logging.LogUtils;
 import com.nanosplace.soundtrackdiscs.util.RegistryHandler;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.jetbrains.annotations.NotNull;
+import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-@Mod("soundtrackdiscs")
-public class SoundtrackDiscs
-{
-    private static final Logger LOGGER = LogUtils.getLogger();
+public class SoundtrackDiscs implements ModInitializer {
 
-    // Hardcoded Mod Identification
-    public static final String MOD_ID = "soundtrackdiscs";
+	// Hardcoded Mod Identification
+	public static final String MOD_ID = "soundtrackdiscs";
 
-    // ItemGroup Declaration
-    public static final CreativeModeTab SOUNDTRACK_DISCS_TAB = new CreativeModeTab("soundtrackdiscs_items") {
-        @Override
-        public @NotNull ItemStack makeIcon() { return new ItemStack(RegistryHandler.MUSIC_DISC_CALM1.get()); }};
+	// Logger
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-    // -4020941818228131454
-    // Begin Mod
-    public SoundtrackDiscs() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+	// ItemGroup Declaration
+	public static final ItemGroup SOUNDTRACK_DISCS_TAB = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "items"),
+			() -> new ItemStack(RegistryHandler.MUSIC_DISC_CALM1.asItem()));
 
-        RegistryHandler.init();
-
-        MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void setup(final FMLCommonSetupEvent event) {}
-
-    private void doClientStuff(final FMLClientSetupEvent event) {}
-
-    private void enqueueIMC(final InterModEnqueueEvent event) {}
-
-    private void processIMC(final InterModProcessEvent event) {}
-
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {}
-
-    @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
-    public static class RegistryEvents {}
+	// -4020941818228131454
+	// Begin Mod
+	@Override
+	public void onInitialize() {
+		RegistryHandler.init();
+	}
 }

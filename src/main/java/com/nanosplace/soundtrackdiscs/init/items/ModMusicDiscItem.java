@@ -1,21 +1,27 @@
 package com.nanosplace.soundtrackdiscs.init.items;
 
 import com.nanosplace.soundtrackdiscs.SoundtrackDiscs;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.RecordItem;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.sounds.SoundEvent;
+import net.minecraft.item.Item;
+import net.minecraft.item.MusicDiscItem;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.util.Rarity;
 
-import java.util.function.Supplier;
+public class ModMusicDiscItem extends MusicDiscItem {
 
-public class ModMusicDiscItem extends RecordItem {
+    private final String KEY;
 
-    public ModMusicDiscItem(int comparatorValue, Supplier<SoundEvent> soundSupplier) {
-        super(comparatorValue, soundSupplier, new Item.Properties()
-                .stacksTo(1)
-                .tab(SoundtrackDiscs.SOUNDTRACK_DISCS_TAB)
+    public ModMusicDiscItem(int comparatorValue, SoundEvent soundEvent, String key) {
+        super(comparatorValue, soundEvent, new Item.Settings()
+                .maxCount(1)
+                .group(SoundtrackDiscs.SOUNDTRACK_DISCS_TAB)
                 .rarity(Rarity.RARE)
         );
+
+        this.KEY = key;
+    }
+
+    public String getKey() {
+        return this.KEY;
     }
 
 }

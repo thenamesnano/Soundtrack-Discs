@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "soundtrackdiscs",
+  "version": "${version}",
+
+  "name": "Soundtrack Discs",
+  "description": "A mod that adds in music discs from the Minecraft OST.",
+  "authors": [
+    "Nano (thenamesnano)"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/soundtrack-discs",
+    "sources": "https://github.com/thenamesnano/Soundtrack-Discs"
+  },
+
+  "license": "MIT",
+  "icon": "assets/soundtrackdiscs/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nanosplace.soundtrackdiscs.SoundtrackDiscs"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
