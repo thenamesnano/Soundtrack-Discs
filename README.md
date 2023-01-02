@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/thenamesnano/Soundtrack-Discs/blob/fabric-1.18/src/main/resources/assets/soundtrackdiscs/icon.png"/>
+  <img src="https://github.com/thenamesnano/Soundtrack-Discs/blob/fabric-1.19/src/main/resources/assets/soundtrackdiscs/icon.png"/>
 </p>
 <h1 align="center">Soundtrack Discs</h1>
 <h4 align="center">~The sound of nostalgia at your fingertips~</h4>
