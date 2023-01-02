@@ -1,6 +1,6 @@
 {
   "config.soundtrackdiscs.modEnabled": "Mod Enabled",
-  "itemGroup.soundtrackdiscs_items": "Soundtrack Discs",
+  "itemGroup.soundtrackdiscs.items": "Soundtrack Discs",
   "item.soundtrackdiscs.music_disc_calm1": "Music Disc",
   "item.soundtrackdiscs.music_disc_calm1.desc": "C418 - minecraft",
   "item.soundtrackdiscs.music_disc_calm2": "Music Disc",
