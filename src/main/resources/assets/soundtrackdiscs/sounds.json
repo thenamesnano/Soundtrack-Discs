@@ -106,5 +106,14 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.dog": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/dog",
+        "stream": true
+      }
+    ]
   }
 }
