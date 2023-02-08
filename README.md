@@ -25,6 +25,7 @@ The mod adds in various music discs with the Minecraft OST so that you can play 
 <li>Dry Hands</li>
 <li>Wet Hands</li>
 <li>Mice on Venus</li>
+<li>Dog</li>
 </ul>
 
 <h3>To Modpack Developers</h3>
