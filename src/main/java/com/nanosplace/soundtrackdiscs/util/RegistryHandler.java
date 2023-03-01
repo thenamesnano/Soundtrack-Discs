@@ -64,6 +64,8 @@ public class RegistryHandler {
             () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(SoundtrackDiscs.MOD_ID, "music_disc.piano3")));
     public static final RegistryObject<SoundEvent> MUSIC_DISC_DOG_SOUND = SOUNDS_EVENTS.register("music_disc.dog",
             () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(SoundtrackDiscs.MOD_ID, "music_disc.dog")));
+    public static final RegistryObject<SoundEvent> MUSIC_DISC_ARIA_MATH_SOUND = SOUNDS_EVENTS.register("music_disc.aria_math",
+            () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(SoundtrackDiscs.MOD_ID, "music_disc.aria_math")));
 
     // Items -----------------------------------------------------------------------------------------------------------
     public static final RegistryObject<Item> MUSIC_DISC_CALM1 = ITEMS.register("music_disc_calm1",
@@ -92,5 +94,7 @@ public class RegistryHandler {
             () -> new ModMusicDiscItem(12, MUSIC_DISC_PIANO3_SOUND, 280));
     public static final RegistryObject<Item> MUSIC_DISC_DOG = ITEMS.register("music_disc_dog",
             () -> new ModMusicDiscItem(13, MUSIC_DISC_DOG_SOUND, 145));
+    public static final RegistryObject<Item> MUSIC_DISC_ARIA_MATH = ITEMS.register("music_disc_aria_math",
+            () -> new ModMusicDiscItem(14, MUSIC_DISC_ARIA_MATH_SOUND, 309));
 
 }

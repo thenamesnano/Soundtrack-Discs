@@ -26,6 +26,7 @@ The mod adds in various music discs with the Minecraft OST so that you can play 
 <li>Wet Hands</li>
 <li>Mice on Venus</li>
 <li>Dog</li>
+<li>Aria Math</li>
 </ul>
 
 <h3>To Modpack Developers</h3>
