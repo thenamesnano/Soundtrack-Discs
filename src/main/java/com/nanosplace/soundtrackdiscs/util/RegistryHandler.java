@@ -44,6 +44,8 @@ public class RegistryHandler {
         SOUND_EVENT_LIST.add(MUSIC_DISC_PIANO3_SOUND);
         MUSIC_DISC_LIST.add(MUSIC_DISC_DOG);
         SOUND_EVENT_LIST.add(MUSIC_DISC_DOG_SOUND);
+        MUSIC_DISC_LIST.add(MUSIC_DISC_ARIA_MATH);
+        SOUND_EVENT_LIST.add(MUSIC_DISC_ARIA_MATH_SOUND);
 
         for (ModMusicDiscItem item : MUSIC_DISC_LIST) {
             Registry.register(Registries.ITEM, new Identifier(SoundtrackDiscs.MOD_ID, item.getKey()), item);
@@ -82,6 +84,8 @@ public class RegistryHandler {
             SoundEvent.of(new Identifier(SoundtrackDiscs.MOD_ID,"music_disc.piano3"));
     public static final SoundEvent MUSIC_DISC_DOG_SOUND =
             SoundEvent.of(new Identifier(SoundtrackDiscs.MOD_ID,"music_disc.dog"));
+    public static final SoundEvent MUSIC_DISC_ARIA_MATH_SOUND =
+            SoundEvent.of(new Identifier(SoundtrackDiscs.MOD_ID,"music_disc.aria_math"));
 
     // Items -----------------------------------------------------------------------------------------------------------
     public static final ModMusicDiscItem MUSIC_DISC_CALM1 =
@@ -110,5 +114,7 @@ public class RegistryHandler {
             new ModMusicDiscItem(12, MUSIC_DISC_PIANO3_SOUND, "music_disc_piano3", 280);
     public static final ModMusicDiscItem MUSIC_DISC_DOG =
             new ModMusicDiscItem(12, MUSIC_DISC_DOG_SOUND, "music_disc_dog", 145);
+    public static final ModMusicDiscItem MUSIC_DISC_ARIA_MATH =
+            new ModMusicDiscItem(13, MUSIC_DISC_ARIA_MATH_SOUND, "music_disc_aria_math", 309);
 
 }

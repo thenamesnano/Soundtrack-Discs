@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/thenamesnano/Soundtrack-Discs/blob/fabric-1.19/src/main/resources/assets/soundtrackdiscs/icon.png"/>
+  <img src="https://github.com/thenamesnano/Soundtrack-Discs/blob/forge-1.19/src/main/resources/icon.png"/>
 </p>
 <h1 align="center">Soundtrack Discs</h1>
 <h4 align="center">~The sound of nostalgia at your fingertips~</h4>
@@ -26,6 +26,7 @@ The mod adds in various music discs with the Minecraft OST so that you can play 
 <li>Wet Hands</li>
 <li>Mice on Venus</li>
 <li>Dog</li>
+<li>Aria Math</li>
 </ul>
 
 <h3>To Modpack Developers</h3>

@@ -1,6 +1,10 @@
 Soundtrack Discs Changelog
 https://github.com/thenamesnano/Soundtrack-Discs
 
+3.4
+====
+ - 3.4.0 Added aria math for Ross_2750
+
 3.3
 ====
  - 3.3.0 Added dog for liraf1l

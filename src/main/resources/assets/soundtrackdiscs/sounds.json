@@ -115,5 +115,14 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.aria_math": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "soundtrackdiscs:records/aria_math",
+        "stream": true
+      }
+    ]
   }
 }
